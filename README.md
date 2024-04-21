@@ -9,15 +9,13 @@ The Google universal-sentence-encoder for vectorization: https://www.kaggle.com/
 <br>
 <h1>Approach</h1>
 Approach is rather simple:
-<p>+</p><ul>Use nltk.stopwords to remove stopwords from every tweet and present it as a list of emotionally meaningful words.</ul>
-<p>+</p><ul>vectorize the entire tweet after removing stopwords along with the afinn lexicon.</ul>
-<p>+</p><ul>Use cosine similarity to bring about the sentiment score by comparing same or similar words between the lexicon and the tweet.</ul>
-<p>+</p><ul>A score greater than 0 can be cosidered to have a positive sentiment and that having lesser than 0 has a negative sentiment.</ul>
-<style>
-  p,ul{
-  display:inline;  
-  }
-</style>
+<ul>
+<p>+</p><li>Use nltk.stopwords to remove stopwords from every tweet and present it as a list of emotionally meaningful words.</li>
+<p>+</p><li>vectorize the entire tweet after removing stopwords along with the afinn lexicon.</li>
+<p>+</p><li>Use cosine similarity to bring about the sentiment score by comparing same or similar words between the lexicon and the tweet.</li>
+<p>+</p><li>A score greater than 0 can be cosidered to have a positive sentiment and that having lesser than 0 has a negative sentiment.</li>
+</ul>
+
 
 
 
